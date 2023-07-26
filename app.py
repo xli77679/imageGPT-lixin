@@ -15,6 +15,7 @@ m = replicate.models.get("tstramer/midjourney-diffusion")
 version = m.versions.get("436b051ebd8f68d23e83d22de5e198e0995357afef113768c20f0b6fcef23c8b")
 app=Flask(__name__)
 
+
 @app.route("/", methods=["GET","POST"])
 def index():
     if request.method =="POST":
