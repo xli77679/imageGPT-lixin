@@ -1,4 +1,3 @@
-
 from flask import Flask,render_template,request
 import os
 import replicate
@@ -26,4 +25,3 @@ def index():
 
 if __name__=="__main__":
     app.run()
-
